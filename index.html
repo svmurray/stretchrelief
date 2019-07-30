@@ -1,14 +1,54 @@
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>StretchRelief</title>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    </head>
-    <body>
-        <div id="app">
-          <h2>StretchRelief Desktop</h2>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>StretchRelief</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="sr.js"></script>
+      <link href="style.css" rel="stylesheet" type="text/css"></link>
+  </head>
+  <body>
+    <div id="app">
+  		<div id="header">
+  	    <h2 id="title">Stretch Relief</h2>
+  			<div id="navButt">
+  				<div class="nav"></div>
+  				<div class="nav"></div>
+  				<div class="nav"></div>
+  			</div>
+  			<div id="cont">
+  				<button class="button" id="so">Sign-in</button>
+  				<button class="button" id="reg">Register</button>
+  			</div>
+  		</div>
+  		<div id="body">
+  			<div id="menu">
+  				<div id="home">Home</div>
+  				<div id="cal">Calendar</div>
+  				<div id="vl">Video Library</div>
+  			</div>
+        <div id="soBox">
+  				<div>Username<input id="soUn" type="text"></input></div>
+  				<div>Password<input id="soPw" type="password"></input></div>
+  				<div class="center">
+            <button id="soSub" class="submit">Sign In</button>
+            <button id="soCan" class="submit">Cancel</button>
+          </div>
+  			</div>
+  			<div id="regBox">
+  				<div>Username<input id="regUn" type="text"></input></div>
+  				<div>Password<input id="regPw" type="password"></input></div>
+  				<div>Confirm Password<input id="regPw2" type="password"></input></div>
+  				<div class="center">
+            <button id="regSub" class="submit">Register</button>
+            <button id="regCan" class="submit">Cancel</button>
+          </div>
         </div>
-    </body>
+      </div>
+  		<div id="content">
+  			<h1>This is a placeholder for the Stretch Relief desktop homepage</h1>
+  		</div>
+		</div>
+  </body>
 </html>

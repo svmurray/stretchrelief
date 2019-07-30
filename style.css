@@ -1,0 +1,120 @@
+h2
+{
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+.button
+{
+	text-align: center;
+	margin: 0 auto;
+	width: 150px;
+}
+
+#regBox div, #soBox div
+{
+	width: 40vw;
+	height: 3em;
+	text-align: center;
+}
+
+th
+{
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+h1 {text-align:center;}
+
+th, td
+{
+	padding: .2em;
+	text-align: center;
+}
+
+table, tr, td
+{
+	border: 1px solid black;
+}
+
+input
+{
+	float: right;
+}
+
+#regBox, #soBox
+{
+	visibility: hidden;
+	margin: auto;
+	width: 0px;
+	height: 0px;
+	position: fixed;
+}
+
+#cont
+{
+	text-align: center;
+	margin: auto;
+	width: 375px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.nav
+{
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
+}
+
+#menu
+{
+	float: right;
+	visibility: hidden;
+	position: fixed;
+	right: 20px;
+	margin-top: 1em;
+	background-color: black;
+	border-radius: 15px;
+}
+
+#menu div
+{
+	border: 1px solid black;
+	padding: 3px;
+	border-radius: 25px;
+	background-color: white;
+	text-align: center;
+}
+
+#menu div:hover
+{
+	cursor: pointer;
+}
+
+#navButt
+{
+	width: 40px;
+	float: right;
+	position: fixed;
+	top: 4px;
+	right: 5px;
+}
+
+#header
+{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #dddddd;
+	margin-bottom: 1em;
+}
+
+#body
+{
+	padding-top: 5em;
+}
